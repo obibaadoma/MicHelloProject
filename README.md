@@ -34,4 +34,4 @@ Inspiration
 etc
 
 ## 📝 License
-This project is MIT licensed.
+This project is [MIT](https://github.com/obibaadoma/MicHelloProject/blob/mobileVersion/MIT.md) licensed.
