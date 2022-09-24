@@ -7,9 +7,12 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+  border: 5px solid white;
 }
 
-.heading {
   display: flex;
   width: 375px;
   height: 60px;
@@ -113,6 +116,29 @@ body {
 
 body.active {
   overflow-y: hidden;
+}
+
+.headline2 {
+  width: 327px;
+  height: 101px;
+
+  /* Header / 2 */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+
+  /* or 130% */
+  display: flex;
+  align-items: center;
+
+  /* Neutrals/N800 */
+  color: #172b4d;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .head {
@@ -233,30 +259,6 @@ body.active {
   left: 16px;
 }
 
-.first-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0.01px;
-  gap: 12px;
-  width: 295px;
-  height: 80px;
-}
-
-.first-container-tonic {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0.01px;
-  gap: 12px;
-  width: 295px;
-  height: 80px;
-}
-
-.newme-title {
-  width: 295px;
-  height: 36px;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -391,153 +393,6 @@ body.active {
   margin-top: 30px;
 }
 
-.newme-description-tonic {
-  width: 295px;
-  height: 76px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #344563;
-  margin-top: -10px;
-}
-
-.languages {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  gap: 8px;
-  width: 203px;
-  height: 24px;
-  top: 180px;
-  margin-top: -10px;
-  margin-bottom: 10px;
-}
-
-.languages-tonic {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  gap: 8px;
-  width: 203px;
-  height: 24px;
-  top: 180px;
-  margin-top: -10px;
-  margin-bottom: 10px;
-}
-
-.language1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 4px 12px;
-  width: 53px;
-  height: 24px;
-  background: #ebebff;
-  border-radius: 8px;
-  margin: 0 5px;
-  border: 0;
-}
-
-.language1 p {
-  width: 29px;
-  height: 16px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  background: #ebebff;
-  border-radius: 8px;
-  top: 4px;
-  left: 12px;
-}
-
-.language2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  width: 45px;
-  height: 24px;
-  background: #ebebff;
-  border-radius: 8px;
-  border: 0;
-  left: 61px;
-}
-
-.language2 p {
-  width: 21px;
-  height: 16px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  top: 4px;
-  left: 12px;
-}
-
-.language3 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  width: 89px;
-  height: 24px;
-  background: #ebebff;
-  border-radius: 8px;
-  border: 0;
-  left: 114px;
-}
-
-.language3 p {
-  width: 65px;
-  height: 16px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  top: 4px;
-  left: 12px;
-}
-
-.newmes {
-  width: 295px;
-  height: 72px;
-}
-
-.newmes-tonic {
-  width: 295px;
-  height: 72px;
-  margin-top: -5px;
-}
-
-.go-newmes {
-  box-sizing: border-box;
-  align-items: center;
-  padding: 12px;
-  width: 140px;
-  height: 48px;
-  left: 0;
-  top: calc(50% - 48px / 2);
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  background-color: #fff;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -617,6 +472,7 @@ body.active {
 
 .social-media-icons-co {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   width: 160px;
   padding-left: 0;
@@ -913,18 +769,12 @@ body.active {
   margin: 0;
 }
 
-.contact-derek {
-  background-color: #6070ff;
-  border-radius: 50px 0  0 0;
-}
 
-.contact-derek h2 {
   color: white;
   margin-top: 40px;
   text-align: center;
 }
 
-.contact-derek p {
   color: #fff;
   margin-left: 10px;
   margin-right: 10px;
