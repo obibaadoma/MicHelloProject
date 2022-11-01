@@ -276,6 +276,8 @@ body.active {
   color: #172b4d;
   margin-top: 0.01px;
   margin-block-end: 0.01px;
+  letter-spacing: 0;
+  text-align: left;
 }
 
 .event2 {
@@ -286,7 +288,7 @@ body.active {
   padding: 0;
   gap: 12px;
   width: 236px;
-  height: 32px;
+  height: 64px;
   margin-block-end: 0;
   margin-top: 40px;
 }
@@ -308,9 +310,10 @@ body.active {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0;
+  padding: 16px 16;
   width: 55px;
   height: 32px;
+  text-align: justify;
 }
 
 .word h3 {
@@ -378,7 +381,7 @@ body.active {
   top: 8px;
 }
 
-.newme-description {
+.nedescriptionwme- {
   width: 295px;
   height: 76px;
   font-family: "Poppins", sans-serif;
@@ -414,6 +417,8 @@ body.active {
   top: 180px;
   margin-top: -10px;
   margin-bottom: 10px;
+  font-family: normal;
+  color: #6070ff;
 }
 
 .languages-tonic {
@@ -428,6 +433,8 @@ body.active {
   top: 180px;
   margin-top: -10px;
   margin-bottom: 10px;
+  font-family: normal;
+  color: #6070ff;
 }
 
 .language1 {
