@@ -268,9 +268,9 @@ body.active {
 .newme-title-tonic {
   width: 295px;
   height: 36px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
@@ -313,6 +313,7 @@ body.active {
   padding: 16px 16;
   width: 55px;
   height: 32px;
+  text-align: justify;
 }
 
 .word h3 {
@@ -416,6 +417,8 @@ body.active {
   top: 180px;
   margin-top: -10px;
   margin-bottom: 10px;
+  font-family: normal;
+  color: #6070ff;
 }
 
 .languages-tonic {
