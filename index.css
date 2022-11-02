@@ -270,7 +270,7 @@ body.active {
   height: 36px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
@@ -310,7 +310,7 @@ body.active {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 16px 16;
+  padding: 16px 4;
   width: 55px;
   height: 32px;
   text-align: justify;
@@ -424,7 +424,7 @@ body.active {
 .languages-tonic {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 0;
   gap: 8px;
@@ -527,14 +527,9 @@ body.active {
 }
 
 .newmes-tonic {
-  width: 327px;
-  height: 552px;
+  width: 295px;
+  height: 72px;
   margin-top: -5px;
-  background: #21e054;
-  border: 1px solid #dfe1e6;
-  left: 24px;
-  top: 114px;
-  border-radius: 16px;
 }
 
 .go-newmes {
@@ -560,8 +555,8 @@ body.active {
 
 .go-newmes:hover {
   transform: scale(1.1);
-  background-color: #130448;
-  color: #dfe1e6;
+  background-color: rgb(19, 4, 72);
+  color: rgb(223, 225, 230);
 }
 
 .contact-me {
@@ -604,12 +599,13 @@ body.active {
 .head-co {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 700px;
   line-height: 52px;
-  color: #01050c;
+  color: #172b4d;
   padding: 50px 0 0;
   margin-top: -35px;
   margin-bottom: 18px;
+  font-style: normal;
 }
 
 .description-co {
@@ -685,7 +681,7 @@ body.active {
 .skill {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   width: 326px;
   height: 464.15px;
   box-sizing: border-box;
@@ -719,7 +715,7 @@ body.active {
   top: calc(50% - 24px / 2);
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 20px;
   line-height: 24px;
   display: flex;
@@ -765,7 +761,7 @@ body.active {
 
 .event9 {
   display: flex;
-  align-items: center;
+  align-items: flex-center;
   gap: 20px;
   width: 255px;
   height: 66.72px;
@@ -862,29 +858,30 @@ body.active {
   box-sizing: border-box;
   width: 327px;
   height: 72px;
-  padding: 0;
+  padding: 0 24px;
   margin-left: -16px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 80px;
-  border-bottom: 1px solid #dfe1e6;
+  border-bottom: 1px solid rgb(223, 225, 230);
 }
 
 .event18 {
   box-sizing: border-box;
   width: 327px;
   height: 72px;
-  padding: 0;
+  padding: 0 24px;
   margin-left: -16px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 80px;
   margin-top: -10px;
-  border-bottom: 1px solid #dfe1e6;
+  border-bottom: 1px solid rgb(223, 225, 230);
 }
 
 .event18 h3,
 .event17 h3 {
+  display: block;
   height: 63.99px;
   width: 112.11px;
   margin-left: 18px;
@@ -892,11 +889,12 @@ body.active {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 20px;
   line-height: 24px;
   color: #000;
-  display: flex;
+
+  /* display: flex; */
   align-items: center;
 }
 
@@ -920,12 +918,14 @@ body.active {
 .event-skill {
   width: 295px;
   height: 144px;
-  padding: 0 16px;
+  padding: 0;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  align-items: center;
+  align-items: flex-start;
   margin: 0;
+  font-weight: bold;
+  margin-left: -25px;
 }
 
 .contact-derek {
