@@ -178,7 +178,7 @@ body.active {
   padding: 16px;
   gap: 12px;
   width: 327px;
-  height: 596px;
+  min-height: 620px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -193,7 +193,7 @@ body.active {
   padding: 16px;
   gap: 12px;
   width: 327px;
-  height: 552px;
+  height: 620px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -414,7 +414,6 @@ body.active {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  margin-top: -10px;
 }
 
 .languages {
@@ -486,6 +485,7 @@ body.active {
   border-radius: 8px;
   border: 0;
   left: 61px;
+  margin: 0 5px;
 }
 
 .language2 p {
@@ -513,6 +513,7 @@ body.active {
   border-radius: 8px;
   border: 0;
   left: 114px;
+  margin: 0 5px;
 }
 
 .language3 p {
