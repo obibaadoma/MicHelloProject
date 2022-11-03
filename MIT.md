@@ -1,4 +1,4 @@
-Copyright 2022, [Derek]
+Copyright 2022, [Derek_Akrasi_Konadu]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this [WebApplication] and associated documentation files, to deal in the [WebApplication] without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the [WebApplication], and to permit persons to whom the [WebApplication] is furnished to do so, subject to the following conditions:
 

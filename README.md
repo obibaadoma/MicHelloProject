@@ -15,7 +15,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Derek_Akrasi_Konadu.**
+👤 **Derek_Akrasi_Konadu**
 
 GitHub: [Derek](https://github.com/obibaadoma)
 LinkedIn: [Derek](https://www.linkedin.com/in/derek-akrasi-konadu-187453151/)
