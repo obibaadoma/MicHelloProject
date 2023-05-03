@@ -827,6 +827,104 @@ body.active {
   background: url(html5-512.png);
 }
 
+<---------The css for section form------>
+
+
+/* form section */
+.form-section {
+  background-color: #fff;
+  background-image: url("images/contactme.png");
+  background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.contact-title {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+}
+
+.contact-parag {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin: auto 10px;
+  padding: 0 10px;
+  margin-bottom: 50px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 90%;
+}
+
+.contact input {
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  padding: 15px 10px;
+  border-radius: 12px;
+  border: none;
+}
+
+.contact textarea {
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+  padding: 15px;
+  border-radius: 12px;
+  border: none;
+}
+
+.contact button {
+  font-family: Poppins, sans-serif;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  align-self: flex-start;
+  padding: 20px 35px;
+  border-radius: 12px;
+  border: none;
+}
+
+}
+
+.contact button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.contact button:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+
+
 .event11 {
   box-sizing: border-box;
   display: flex;
