@@ -926,7 +926,6 @@ body.active {
 
 .contact-derek {
   background-color: #6070ff;
-  background-image:background-image: url("images\b.png"); ;
   border-radius: 50px 0 0 0;
 }
 
@@ -1015,4 +1014,3 @@ hr.rounded {
   color: #396df2;
   transition: transform 0.4s ease-in-out;
 }
-
