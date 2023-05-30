@@ -827,10 +827,6 @@ body.active {
   background: url(html5-512.png);
 }
 
-<---------The css for section form------>
-
-
-/* form section */
 .form-section {
   background-color: #fff;
   background-image: url("images/contactme.png");
@@ -838,7 +834,6 @@ body.active {
   flex-direction: column;
   justify-content: center;
 }
-
 
 .wrap {
   display: flex;
@@ -874,6 +869,12 @@ body.active {
   width: 90%;
 }
 
+form input {
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+}
+
 .contact input {
   font-family: Poppins, sans-serif;
   font-size: 17px;
@@ -883,6 +884,14 @@ body.active {
   padding: 15px 10px;
   border-radius: 12px;
   border: none;
+}
+
+form textarea {
+  background: hsl(0, 0%, 100%);
+  width: 200px;
+  height: 170px;
+  padding: 10px;
+  border: 1px solid hsl(198, 16%, 84%);
 }
 
 .contact textarea {
@@ -911,8 +920,6 @@ body.active {
   border: none;
 }
 
-}
-
 .contact button:hover {
   background-color: #6070ff;
   color: #fff;
@@ -922,8 +929,6 @@ body.active {
   background-color: #2230d2;
   color: #fff;
 }
-
-
 
 .event11 {
   box-sizing: border-box;
@@ -1038,20 +1043,6 @@ body.active {
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
-}
-
-form input {
-  background: white;
-  padding: 8px;
-  border-radius: 8px;
-}
-
-form textarea {
-  background: hsl(0, 0%, 100%);
-  width: 200px;
-  height: 170px;
-  padding: 10px;
-  border: 1px solid hsl(198, 16%, 84%);
 }
 
 #username {
